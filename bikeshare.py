@@ -70,7 +70,7 @@ def load_data(city, month, day):
     if day !='all':
         df=df[df['day_of_week'] == day.title()]
     
-    #display 5 line data
+    # Query user whether show 5 lines data
     x=5
     while True:
         display_5_line = input('\nWould you like to display 5 line data? Enter yes or no.\n')
