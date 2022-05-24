@@ -74,6 +74,12 @@ def load_data(city, month, day):
         df = df[df['day_of_week'] == day.title()]
 
     # display 5 line data
+    display_5lines(df)
+
+    return df
+
+
+def display_5lines(df):
     x = 5
     while True:
         display_5_line = input('\nWould you like to display 5 line data? Enter yes or no.\n')
@@ -82,8 +88,6 @@ def load_data(city, month, day):
         x += 5
         if display_5_line.lower() != 'yes':
             break
-
-    return df
 
 
 def time_stats(df):
