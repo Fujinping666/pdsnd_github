@@ -1,19 +1,19 @@
 >**Note**: Please **fork** the current Udacity repository so that you will have a **remote** repository in **your** Github account. Clone the remote repository to your local machine. Later, as a part of the project "Post your Work on Github", you will push your proposed changes to the remote repository in your Github account.
 
 ### Date created
-Include the date you created this project and README file.
+2022.05.24
 
 ### Project Title
-Replace the Project Title
+Bikeshare using data
 
 ### Description
-Describe what your project is about and what it does
+User can get bike using data by selecting city , month & day of week 
 
 ### Files used
-Include the files used
+chicago.csv,new_york_city.csv,washington.csv
 
 ### Credits
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
+none
 
 ### Project Code
 Below is python code of this project 
